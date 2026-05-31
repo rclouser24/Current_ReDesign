@@ -4,6 +4,7 @@ import { ServicesSection } from "@/components/sections/ServicesSection";
 import { ClientsSection } from "@/components/sections/ClientsSection";
 import { InsightsSection } from "@/components/sections/InsightsSection";
 import { FooterSection } from "@/components/sections/FooterSection";
+import { LogoBanner } from "@/components/sections/LogoBanner";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <ClientsSection />
       <InsightsSection />
       <FooterSection />
+      <LogoBanner />
     </main>
   );
 }
